@@ -29,8 +29,7 @@ const App = () => {
           <Text style={styles.blackText}>Black Box</Text>
         </View>
         <View style={styles.brownBox}>
-          <Text style={styles.brownText}>Brown</Text>
-          <Text style={styles.brownText}>Box</Text>
+          <Text style={styles.brownText}>Brown Box</Text>
         </View>
       </View>
     </SafeAreaView>
@@ -68,7 +67,6 @@ const styles = StyleSheet.create({
   },
   orangeText: {
     fontWeight: 'bold',
-    // flexWrap: 'wrap',
     textAlign: 'center',
   },
   yellowBox: {
@@ -111,4 +109,5 @@ const styles = StyleSheet.create({
     textAlign: 'center'
   },
 });
+
 export default App;
