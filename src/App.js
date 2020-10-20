@@ -37,7 +37,7 @@ const App = () => {
 };
 const styles = StyleSheet.create({
   main1: {
-    backgroundColor: 'red',
+    backgroundColor: 'green',
     flex: 1,
     justifyContent: 'center',
   },
